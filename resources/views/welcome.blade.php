@@ -9,7 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+        
         <!-- Styles -->
         <style>
             html, body {
@@ -79,15 +79,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    PAMI
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://www.blinteruniverse.com">Blinter Universe</a>
+                    <a href="https://github.com/ViElectronicEntertainment/PAMI">Git Hub</a>
+                    <a href="https://www.facebook.com/BlinterUniverse/">Facebook</a>
+                    <a href="{{ route('login') }}">Desarrolladores</a>
                 </div>
             </div>
         </div>
