@@ -1,0 +1,5 @@
+{
+    "require": {
+        "rollbar/rollbar": "~1.1"
+    }
+}
