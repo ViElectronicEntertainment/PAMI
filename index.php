@@ -1,6 +1,6 @@
 <?php
-use \Rollbar\Rollbar;
-use \Rollbar\Payload\Level;
+use vendor\Rollbar\Rollbar;
+use vendor\Rollbar\Payload\Level;
 Rollbar::init(
   array(
     'access_token' => '0b4b0ebd6fe6477b8c61e4b322b68ee1',
