@@ -1,16 +1,4 @@
-<?php
-use \Rollbar\Rollbar;
-use \Rollbar\Payload\Level;
-Rollbar::init(
-  array(
-    'access_token' => '0b4b0ebd6fe6477b8c61e4b322b68ee1',
-    'environment' => 'development'
-  )
-);
-Rollbar::log(Level::info(), 'Test info message');
-throw new Exception('Test exception');
-session_start();
-?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -45,7 +33,7 @@ session_start();
             <h1 class="cover-heading">PAMI</h1>
             <p class="lead">PAMI es la plataforma de administracion de medios inteligente de Vi Electronic Entertanment al servicio de su grupo de empresas, si usted hace parte del programa de experiencia Alpha puede iniciar sesion o registrarse acontinuacion.</p>
             <p class="lead">
-              <a href="login.php" class="btn btn-lg btn-secondary">Inicio</a>
+              <a href="home.php" class="btn btn-lg btn-secondary">Inicio</a>
             </p>
           </main>
           <footer class="mastfoot">
