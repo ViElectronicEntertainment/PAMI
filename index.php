@@ -1,16 +1,14 @@
 <?php
-use vendor\Rollbar\Rollbar;
-use vendor\Rollbar\Payload\Level;
+use \Rollbar\Rollbar;
+use \Rollbar\Payload\Level;
 Rollbar::init(
   array(
     'access_token' => '0b4b0ebd6fe6477b8c61e4b322b68ee1',
     'environment' => 'development'
   )
 );
-
 Rollbar::log(Level::info(), 'Test info message');
 throw new Exception('Test exception');
-
 session_start();
 ?>
 <!DOCTYPE html>
