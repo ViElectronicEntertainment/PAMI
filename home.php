@@ -23,6 +23,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 <div class="row">
 <div class="col-md">
 		<h2>Bienvenido</h2>
+		<p>Ir al <a href="dashboard.php">Tablero</a> </p>
 </div>
 </div>
 </div>

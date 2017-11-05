@@ -15,7 +15,7 @@ if(!empty($_POST))
 			if($found){
 				print "<script>alert(\"Nombre de usuario o email ya estan registrados.\");window.location='../registro.php';</script>";
 			}
-			$sql = "insert into user(username,firtsname,lastname,email,password,Leadership,Innovation,Teamwork,Management,Design, Development,ProblemResolution,Sales,Communication,Community,created_at) value (\"$_POST[username]\",\"$_POST[firtsname]\",\"$_POST[lastname]\",\"$_POST[email]\",\"$_POST[password]\",'1','1','1','1','1','1','1','1','1','1',NOW())";
+			$sql = "insert into user(username,firtsname,lastname,email,password,Leadership,Innovation,Teamwork,Management,Design, Development,ProblemResolution,Sales,Communication,Community,level,created_at) value (\"$_POST[username]\",\"$_POST[firtsname]\",\"$_POST[lastname]\",\"$_POST[email]\",\"$_POST[password]\",'1','1','1','1','1','1','1','1','1','1','1',NOW())";
 			$query = $con->query($sql);
 			if($query!=null){
 				print "<script>alert(\"Registro exitoso. Proceda a logearse\");window.location='../login.php';</script>";

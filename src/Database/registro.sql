@@ -18,5 +18,6 @@ create table user(
 	Sales int (5) not null,
 	Communication int (5) not null,
 	Community int (5) not null,
+	level int (5) not null,
 	created_at datetime not null
 );
