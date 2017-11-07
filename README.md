@@ -8,7 +8,7 @@
 <h4 align="center">Plataforma de Administracion de Medios Inteligentes</h4>
 <p align="center">
 	<a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
-		<img src="https://img.shields.io/badge/Version-0.0.0.2-yellow.svg?style=for-the-badge"
+		<img src="https://img.shields.io/badge/Version-0.0.0.4-yellow.svg?style=for-the-badge"
             alt="Version"></a>
     <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">
     <img src="https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg?style=for-the-badge"
@@ -31,10 +31,6 @@
 * Blinter
 * PAMI
 * Creative Web Xpression
-
-## Ultimos Cambios
-
-* Registro e iniciacion de Variables
 
 ## Tecnologias usadas
 

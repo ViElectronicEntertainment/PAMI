@@ -1,4 +1,6 @@
-<?php session_start();?>
+<?php
+session_start();
+include "php/xperience.php";?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,7 +42,7 @@
 				<img src="src/img/AlphaPAMI-Profile.png" class="img-responsive" alt="">
 			</div>
 			<div class="profile-usertitle">
-				<div class="profile-usertitle-name">Username</div>
+				<div class="profile-usertitle-name"><?php echo $username; ?></div>
 				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
 			</div>
 			<div class="clear"></div>
@@ -74,7 +76,7 @@
 				<div class="col-xs-6 col-md-3 col-lg-3 no-padding">
 					<div class="panel panel-teal panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-plus color-blue"></em>
-							<div class="large">#</div>
+							<div class="large"><?php echo $Stats_total; ?></div>
 							<div class="text-muted">Mis Puntos</div>
 						</div>
 					</div>
@@ -98,7 +100,7 @@
 				<div class="col-xs-6 col-md-3 col-lg-3 no-padding">
 					<div class="panel panel-red panel-widget ">
 						<div class="row no-padding"><em class="fa fa-xl fa-id-card color-red"></em>
-							<div class="large">#</div>
+							<div class="large"><?php echo $level; ?></div>
 							<div class="text-muted">Mi Nivel</div>
 						</div>
 					</div>
@@ -106,7 +108,7 @@
 			</div><!--/.row-->
 		</div>
 			<div class="col-sm-12">
-				<p class="back-link">PAMI 0.0.0.2 - <a href="https://github.com/ViElectronicEntertainment/PAMI">GitHub</a> - <a href="https://blinteruniverse.com">Blinter Universe</a></p>
+				<p class="back-link">PAMI 0.0.0.4 - <a href="https://github.com/ViElectronicEntertainment/PAMI">GitHub</a> - <a href="https://blinteruniverse.com">Blinter Universe</a></p>
 			</div>
 		</div><!--/.row-->
 	</div>	<!--/.main-->
