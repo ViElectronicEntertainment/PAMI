@@ -842,8 +842,8 @@ a.label:hover, a.label:focus {
 .profile-userpic img {
   float: left;
   margin: 10px 0px 0px 15px;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 9999px !important; }
 
 .profile-usertitle {
@@ -853,6 +853,11 @@ a.label:hover, a.label:focus {
 
 .profile-usertitle-name {
   font-size: 20px;
+  margin-bottom: 0px; }
+
+.profile-usertitle-level {
+  font-size: 15px;
+  color: #AAA;
   margin-bottom: 0px; }
 
 .profile-usertitle-status {

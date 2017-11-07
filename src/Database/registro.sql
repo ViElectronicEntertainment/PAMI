@@ -19,5 +19,6 @@ create table user(
 	Communication int (5) not null,
 	Community int (5) not null,
 	level int (5) not null,
+	experience int (255) not null,
 	created_at datetime not null
 );

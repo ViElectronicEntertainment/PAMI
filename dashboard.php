@@ -44,6 +44,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 			</div>
 			<div class="profile-usertitle">
 				<div class="profile-usertitle-name"><?php echo $username; ?></div>
+				<div class="profile-usertitle-level">Lv. <?php echo $idrango; ?> - <?php echo $rango; ?></div>
 				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Online</div>
 			</div>
 			<div class="clear"></div>
@@ -109,7 +110,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 			</div><!--/.row-->
 		</div>
 			<div class="col-sm-12">
-				<p class="back-link">PAMI 0.0.0.4 - <a href="https://github.com/ViElectronicEntertainment/PAMI">GitHub</a> - <a href="https://blinteruniverse.com">Blinter Universe</a></p>
+				<p class="back-link">PAMI 0.0.0.5 - <a href="https://github.com/ViElectronicEntertainment/PAMI">GitHub</a> - <a href="https://blinteruniverse.com">Blinter Universe</a></p>
 			</div>
 		</div><!--/.row-->
 	</div>	<!--/.main-->
