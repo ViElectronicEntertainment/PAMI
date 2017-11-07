@@ -5,7 +5,7 @@
 	<!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="PAMI Plataforma de Administracion de Medios Inteligente ">
+    <meta name="description" content="PAMI Plataforma de Administracion de Medios Inteligentes">
     <meta name="author" content="Vi Electronic Entertainment">
     <link rel="icon" href="favicon.ico">
 	<title>PAMI</title>
@@ -14,7 +14,6 @@
     <!-- Cover Bootstrap Template -->
     <link href="css/cover.css" rel="stylesheet">
 </head>
-
 <body>
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
@@ -33,7 +32,7 @@
             <h1 class="cover-heading">PAMI</h1>
             <p class="lead">PAMI es la plataforma de administracion de medios inteligente de Vi Electronic Entertanment al servicio de su grupo de empresas, si usted hace parte del programa de experiencia Alpha puede iniciar sesion o registrarse acontinuacion.</p>
             <p class="lead">
-              <a href="home.php" class="btn btn-lg btn-secondary">Inicio</a>
+              <a href="dashboard.php" class="btn btn-lg btn-secondary">Inicio</a>
             </p>
           </main>
           <footer class="mastfoot">
