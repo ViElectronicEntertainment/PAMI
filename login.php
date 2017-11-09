@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,15 +11,11 @@
 	<!-- CSS -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="css/styles.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body>
 <div class="row">
-	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
-		<h2>Login</h2>
+    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+        <h2>Login</h2>
 		<div class="login-panel panel panel-default">
 			<div class="panel-heading">Log in</div>
 			<div class="panel-body">
@@ -43,8 +38,9 @@
 				<!--Caja de Botones-->
 				<div class="btn-group">
 					<button type="submit" class="btn btn-outline-primary">Acceder</button>
-					<a href="registro.php" class="btn btn-outline-info" role="button" aria-pressed="true">Registro</a></fieldset>
-				</div>
+					<a href="registro.php" class="btn btn-outline-info" role="button" aria-pressed="true">Registro</a>
+                </div>
+                </fieldset>
 			</form>
 		</div><!--Panel Body-->
 	</div><!--Login Panel-->
@@ -52,7 +48,7 @@
 </div><!--Row-->
 <!--Scripts-->
 <script src="js/valida_login.js"></script>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
