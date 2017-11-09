@@ -7,6 +7,7 @@ $resultado = mysqli_query( $con, $consulta ) or die ( "Algo ha ido mal en la con
 $columna = mysqli_fetch_array( $resultado );
 
 //Declaracion de variables:
+$id = $columna['id'];
 $Nombre = $columna['firtsname'];
 $Apellido = $columna['lastname'];
 $username = $columna['username'];
@@ -23,6 +24,7 @@ $Communication = $columna['Communication'];
 $Community = $columna['Community'];
 $level = $columna['level'];
 $experience = $columna['experience'];
+$Alta = $columna['created_at'];
 
 //Variables Xperience
 $Stats_total = $Leadership+$Innovation+$Teamwork+$Management+$Design+$Development+$ProblemResolution+$Sales+$Communication+$Community;

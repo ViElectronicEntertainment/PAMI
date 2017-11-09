@@ -26,15 +26,26 @@
 Todos los cambios notables de este proyecto estan documentadas en este 
 archivo.
 
-## [0.0.0.5] - 2017-11-09
+## [0.0.0.7] - 2017-11-09
+### Changed
+- [php/usuarios.php] Permite el registro de nuevos usuarios desde la plataforma
+- 
+
+### Fixed
+### Added
+### Removed
+
+## [0.0.0.6] - 2017-11-09
 ### Changed
 - [Dashboard.php] tiene un mensaje de saludo
 - [Dashboard.php] Muestra trabajo reciente
+
 ### Fixed
 - [index.php] Actualizaciones esteticas
 - [login.php] Correciones en la sesion php
 - [login.php] Correciones en el script jquery
 - [login.php] Correciones en el scrit bootstrap
+
 ### Added
 - Se agrega [ChangeLog.md] al proyecto, cortesia de @andago9
 - Se agrega [Doc/notes.md] para notas, links y referencias del proyecto
@@ -43,7 +54,6 @@ archivo.
 - Se agrega [php/roles.php] para gestion de los roles de usuario PAMI
 ### Removed
 - Se elimina [navbar.php]
-
 
 ## [0.0.0.5] - 2017-11-08
 ### Changed
