@@ -17,23 +17,37 @@
 ██████████████████████████████████████████████████████████████████████████
 
 		╔══════════════════════════════════════╗
-  
 		║   Ultimos Cambios - Change Log       ║
-
 		╚══════════════════════════════════════╝
 		Ultima Actualizacion:  	2017-11-09
 					▀▀▀▀▀▀▀▀▀▀			
 Todos los cambios notables de este proyecto estan documentadas en este 
 archivo.
 
-## [0.0.0.7] - 2017-11-09
-### Changed
-- [php/usuarios.php] Permite el registro de nuevos usuarios desde la plataforma
-- 
+## [0.0.0.7] - 2017-11-12
 
-### Fixed
+### Changed
+- Se instalo Laravel 5.5 y se adapto el modulo e registro al sistema de migraciones de laravel
+- Se Agrega un nueva Tabla [blinter_profile] que gestiona el sitema de puntos, niveles y estadisticas
+
+### Fixed 
+- CSS PAMI [0.0.0.6]
+- JS PAMI [0.0.0.6]
+- .gitignore
+- .gitattributes
+
+### Canned
+- /Doc
+- Readme.md
+- favicon.ico
+
 ### Added
+- Archivos de Laravel 5.5
+- Doc/OldPAMI guarda archivos y configuraciones de PAMI 0.0.0.6
+
 ### Removed
+- Se elimino la version anterior a PAMI [0.0.0.6]
+- Se elimino [Changes.md], ahora todos los cambios se documentan en ChangeLog.md
 
 ## [0.0.0.6] - 2017-11-09
 ### Changed
@@ -52,6 +66,7 @@ archivo.
 - Se agrega [php/proyectos.php] para gestion de proyectos PAMI
 - Se agrega [php/usuarios.php] para gestion de los usuarios PAMI
 - Se agrega [php/roles.php] para gestion de los roles de usuario PAMI
+
 ### Removed
 - Se elimina [navbar.php]
 
@@ -60,8 +75,6 @@ archivo.
 - Modificaciones al Xperience.php ahora regula los niveles y puntos de xp
   de los usuarios
 - Con la actualizacion se añaden 10 pts por inscripcion.
-
-
 
 ### Fixed
 - se modifica direccion de carga en el login para que se visualice 
@@ -72,10 +85,8 @@ correctamente en todos los equipos.
 - Creacion del Xperience.php que regula los datos de puntos de 
   xp del usuario
  
-
 ### Removed
 - se eliminan datos locales de bootstrap
-
 
 ## [0.0.0.3] 2017-11-01
 ### Changed
