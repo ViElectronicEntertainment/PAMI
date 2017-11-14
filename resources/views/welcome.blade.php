@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
+        <meta name="description" content="PAMI Plataforma de Administracion de Medios Inteligentes">
+        <meta name="author" content="Vi Electronic Entertainment">
+        <link rel="icon" href="favicon.ico">
+        <title>PAMI</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
         <!-- Styles -->
         <style>
             html, body {
@@ -76,18 +76,18 @@
                     @endauth
                 </div>
             @endif
-
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    PAMI
                 </div>
-
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <p>Plataforma Administrativa de Medios Inteligentes</p>
+                    <a href="https://github.com/ViElectronicEntertainment/PAMI">GitHub</a>
+                    <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">Reportar Errores</a>
+                    <a href="https://facebook.com/BlinterUniverse/">Facebook</a>
+                    <a href="https://discord.gg/34DYauN">Discord</a>
+                    <a href="https://twitter.com/BlinterUniverse">Twitter</a>
+                    <a href="https://www.youtube.com/channel/UCji0rxIuB2g9P6c1xCF9FZQ">YouTube</a>
                 </div>
             </div>
         </div>

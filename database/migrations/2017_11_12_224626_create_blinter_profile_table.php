@@ -15,6 +15,14 @@ class CreateBlinterProfileTable extends Migration
     {
         Schema::create('blinter_profile', function (Blueprint $table) {
             $table->increments('id')->index();
+            //Datos Personales
+            $table->mediumText('msg_personal')->nulleable;
+            $table->mediumText('Bio')->nulleable;
+            $table->string('Twitter')->nulleable;
+            $table->string('Facebook')->nulleable;
+            $table->integer('Celular')->nulleable;
+            $table->integer('DNI')->nulleable;
+            //Blinter Skills
             $table->integer('Leadership')->{'1'};
             $table->integer('Innovation')->{'1'};
             $table->integer('Teamwork')->{'1'};
@@ -27,6 +35,14 @@ class CreateBlinterProfileTable extends Migration
             $table->integer('Community')->{'1'};
             $table->integer('level')->{'1'};
             $table->integer('experience')->{'0'};
+            //Llave Foreana
+            $table->integer('user_id')->unsigned();
+            //Relacion
+            Schema::enableForeignKeyConstraints();
+            $table->foreign('user_id')
+                ->references('id')->on('users')
+                ->onDelete('cascade');
+            //Creacion / Actualizacion
             $table->timestamps();
         });
     }

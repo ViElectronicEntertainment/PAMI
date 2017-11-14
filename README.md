@@ -7,21 +7,18 @@
 </h1>
 <h4 align="center">Plataforma de Administracion de Medios Inteligentes</h4>
 <p align="center">
-	<a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
-		<img src="https://img.shields.io/badge/Version-0.0.0.7-yellow.svg?style=for-the-badge"
-            alt="Version"></a>
+  <a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
+    <img src="https://img.shields.io/badge/Version-0.0.0.8-yellow.svg?style=for-the-badge" alt="Version"></a>
     <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">
-    <img src="https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg?style=for-the-badge"
-        alt="build status"></a>
+    <img src="https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg?style=for-the-badge" alt="build status"></a>
     <a href="https://facebook.com/BlinterUniverse/">
-        <img src="https://img.shields.io/badge/Facebook-Like-blue.svg?style=for-the-badge"
-            alt="last deployed"></a>
+    <img src="https://img.shields.io/badge/Facebook-Like-blue.svg?style=for-the-badge" alt="last deployed"></a>
     <a href="https://discord.gg/34DYauN">
-        <img src="https://img.shields.io/badge/Discord-Join-blue.svg?style=for-the-badge"
-            alt="chat on Discord"></a>
+      <img src="https://img.shields.io/badge/Discord-Chat-blue.svg?style=for-the-badge" alt="Chatea con nosotros!"></a>
     <a href="https://twitter.com/BlinterUniverse">
-        <img src="https://img.shields.io/badge/Twitter-Follow-blue.svg?style=for-the-badge"
-            alt="follow on Twitter"></a>
+      <img src="https://img.shields.io/badge/Twitter-Seguir-blue.svg?style=for-the-badge" alt="Siguenos en Twitter"></a>
+      <a href="https://www.youtube.com/channel/UCji0rxIuB2g9P6c1xCF9FZQ">
+        <img src="https://img.shields.io/badge/YouTube-Ver-red.svg?style=for-the-badge" alt="Miranos en Youtube"></a>
 </p>
 
 ---
@@ -34,8 +31,8 @@
 
 ## Tecnologias usadas
 
-* Bootstrap
-* Laravel
+* Bootstrap 4
+* Laravel 5.5
 
 #### License
 
@@ -44,5 +41,5 @@ MIT
 ---
 
 > [blinteruniverse.com](https://www.blinteruniverse.com) &nbsp;&middot;&nbsp;
-> GitHub [@velosergio](https://github.com/velosergio) &nbsp;&middot;&nbsp;
-> Twitter [@velosergio](https://twitter.com/velosergio)
+> GitHub [@Vi Electronic Entertainment](https://github.com/ViElectronicEntertainment) &nbsp;&middot;&nbsp;
+> Twitter [@blinter](https://twitter.com/blinteruniverse)

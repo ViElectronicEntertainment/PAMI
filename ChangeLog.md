@@ -16,13 +16,37 @@
 ██████████░░░░░░█░░░░░░██░░██░░████░░█████░░█████░░░░░░██░░███░░██████████
 ██████████████████████████████████████████████████████████████████████████
 
+		
 		╔══════════════════════════════════════╗
 		║   Ultimos Cambios - Change Log       ║
 		╚══════════════════════════════════════╝
-		Ultima Actualizacion:  	2017-11-09
+		Ultima Actualizacion:  	2017-11-14
 					▀▀▀▀▀▀▀▀▀▀			
-Todos los cambios notables de este proyecto estan documentadas en este 
-archivo.
+Todos los cambios notables de este proyecto estan documentadas en este archivo.
+
+## [0.0.0.8] - 2017-11-14
+
+### Changed
+- [config/app.php] se configuro al proyecto PAMI
+- Se migro la instalacion de Bootstrap 3 a Bootstrap 4
+
+#### Blinter Profile
+- Se agregaron limitaciones en los registros de Atributos de Blinter Profile = 10
+- Se agregaron campos editables a los perfiles Blinter
+	-- Mensaje personal
+	-- Biografia
+	-- Twitter
+	-- Facebook
+	-- Celular
+	-- Documento Nacional de Identificacion
+
+### Fixed
+- El Campo [Username] es ahora unico
+- Reparacion del login y register
+
+### Added
+### Removed
+- Se elimino archivos por defecto del Frontend Scaffolding de laravel
 
 ## [0.0.0.7] - 2017-11-12
 
@@ -72,27 +96,24 @@ archivo.
 
 ## [0.0.0.5] - 2017-11-08
 ### Changed
-- Modificaciones al Xperience.php ahora regula los niveles y puntos de xp
-  de los usuarios
+- Modificaciones al Xperience.php ahora regula los niveles y puntos de xp  de los usuarios
 - Con la actualizacion se añaden 10 pts por inscripcion.
 
 ### Fixed
-- se modifica direccion de carga en el login para que se visualice 
-correctamente en todos los equipos.
+- Se modifica direccion de carga en el login para que se visualice correctamente en todos los equipos.
 
 ## [0.0.0.4] 2017-11-03
 ### Added
-- Creacion del Xperience.php que regula los datos de puntos de 
-  xp del usuario
+- Creacion del Xperience.php que regula los datos de puntos de xp del usuario
  
 ### Removed
-- se eliminan datos locales de bootstrap
+- Se eliminan datos locales de bootstrap
 
 ## [0.0.0.3] 2017-11-01
 ### Changed
 - Optimizaciones Generales al Tablero y sistema de datos.
-- se mejora visualmente el login registro home y dashboard.
-- se crean sesiones que mantienen abiertas y se cierran desde logout.
+- Se mejora visualmente el login registro home y dashboard.
+- Se crean sesiones que mantienen abiertas y se cierran desde logout.
 
 ## [0.0.0.2] 2017-10-30
 ### Changed
@@ -100,14 +121,12 @@ correctamente en todos los equipos.
 - Se personalizan mejoras visuales con el tema.
 
 ### Added
-- menu en el header de home con inicio y registro.
+- Menu en el header de home con inicio y registro.
 
 ## [0.0.0.1] 2017-10-25
 ### Added
 - Registro e iniciacion de Variables
 
-- Creacion Pagina de inicio con nombre de proyecto en la parte superior 
-izquierda. 
-- Creacion base de datos Pami con tabla usuarios para el registro de 
-usuarios 
+- Creacion Pagina de inicio con nombre de proyecto en la parte superior izquierda. 
+- Creacion base de datos Pami con tabla usuarios para el registro de usuarios 
 - Login: campos usuario, nombre, correo, contraseña con confirmacion.
