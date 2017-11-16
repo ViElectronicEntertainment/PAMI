@@ -8,7 +8,7 @@
 <h4 align="center">Plataforma de Administracion de Medios Inteligentes</h4>
 <p align="center">
   <a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
-    <img src="https://img.shields.io/badge/Version-0.0.0.8-yellow.svg?style=for-the-badge" alt="Version"></a>
+    <img src="https://img.shields.io/badge/Version-0.0.0.9-yellow.svg?style=for-the-badge" alt="Version"></a>
     <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">
     <img src="https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg?style=for-the-badge" alt="build status"></a>
     <a href="https://facebook.com/BlinterUniverse/">
@@ -33,6 +33,7 @@
 
 * Bootstrap 4
 * Laravel 5.5
+* jQuery 3
 
 #### License
 

@@ -13,7 +13,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
     <meta name="author" content="Vi Electronic Entertainment">
     <link rel="icon" href="favicon.ico">
 	<title>PAMI | Tablero</title>
-<!--CDN-->
+<!-- CDN -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="css/styles.css" rel="stylesheet">
@@ -24,7 +24,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	<![endif]-->
 </head>
 <body>
-<!--Barra de Notificaciones-->
+<!-- Barra de Notificaciones -->
 	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -36,7 +36,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 			</div>
 		</div><!-- /.container-fluid -->
 	</nav>
-<!--SideBar Usuario-->
+<!-- SideBar Usuario -->
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 		<div class="profile-sidebar">
 			<div class="profile-userpic">
@@ -50,13 +50,13 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 			<div class="clear"></div>
 		</div>
 		<div class="divider"></div>
-		<!--Menu-->
+		<!-- Menu -->
 		<ul class="nav menu">
 			<li class="active"><a href="dashboard.php"><em class="fa fa-dashboard">&nbsp;</em> Dashboard</a></li>
 			<li><a href="php/logout.php"><em class="fa fa-power-off">&nbsp;</em> Logout</a></li>
 		</ul>
 	</div><!--/.sidebar-->
-<!--Ruta-->
+<!-- Ruta -->
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 		<div class="row">
 			<ol class="breadcrumb">

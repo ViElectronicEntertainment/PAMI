@@ -20,9 +20,20 @@
 		╔══════════════════════════════════════╗
 		║   Ultimos Cambios - Change Log       ║
 		╚══════════════════════════════════════╝
-		Ultima Actualizacion:  	2017-11-14
+		Ultima Actualizacion:  	2017-11-16
 					▀▀▀▀▀▀▀▀▀▀			
+
 Todos los cambios notables de este proyecto estan documentadas en este archivo.
+
+## [0.0.0.9] - 2017-11-16
+### Changed
+### Fixed
+- Formulario de Registro
+- Bootstrap 4 CDN
+- Barra de navegacion superior
+
+### Added
+### Removed
 
 ## [0.0.0.8] - 2017-11-14
 
