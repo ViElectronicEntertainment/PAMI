@@ -24,16 +24,46 @@
 					▀▀▀▀▀▀▀▀▀▀			
 
 Todos los cambios notables de este proyecto estan documentadas en este archivo.
+//Ejemplo
+## [version estable.v-beta.v-alpha.cambio menor] - año-mes-dia
+### Changed
+### Fixed
+### Added
+### Removed
+
+## [0.0.0.10] - 2017-11-18
+### Changed
+- Datos personalizacion separados del Blinter Profile
+- Ahora el registro viene en 3 fases
+-- Primera Fase:
+	Registro de ID
+	eMail
+	Contraseña
+-- Segunda Fase:
+	Registro de Primer Nombre
+	Segundo Nombre
+	Nick Name
+	Mensaje personal "opcional"
+	Biografia "Opcional"
+	Twitter
+	Facebook
+	Celular
+	DNI
+-- Tercera Fase: Asignacion de 1 punto de atributo a todos los Skills
+
+### Fixed
+### Added
+- BlinterProfileController: Controlador encargado de asignar las variables blinter profile y completar datos del usuario
+- ProjectsController: Sistema para Crear, Leer, Actualizar, Eliminar - "CRUD"
+- Tabla Projects: Almacena y gestiona informacion de los proyectos
+
+### Removed
 
 ## [0.0.0.9] - 2017-11-16
-### Changed
 ### Fixed
 - Formulario de Registro
 - Bootstrap 4 CDN
 - Barra de navegacion superior
-
-### Added
-### Removed
 
 ## [0.0.0.8] - 2017-11-14
 
@@ -55,7 +85,6 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 - El Campo [Username] es ahora unico
 - Reparacion del login y register
 
-### Added
 ### Removed
 - Se elimino archivos por defecto del Frontend Scaffolding de laravel
 
@@ -137,7 +166,6 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ## [0.0.0.1] 2017-10-25
 ### Added
 - Registro e iniciacion de Variables
-
 - Creacion Pagina de inicio con nombre de proyecto en la parte superior izquierda. 
 - Creacion base de datos Pami con tabla usuarios para el registro de usuarios 
 - Login: campos usuario, nombre, correo, contraseña con confirmacion.
