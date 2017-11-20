@@ -13,17 +13,6 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(pami\User::class, function (Faker $faker) {
-    static $password;
-
-    return [
-        'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
-        'password' => $password ?: $password = bcrypt('secret'),
-        'remember_token' => str_random(10),
-    ];
-});
-
 $factory->define(pami\Product::class, function (Faker $faker) {
     return [
         'name' => $faker->sentence(2),

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace pami;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'firtsname','lastname', 'email', 'password',
+        'name', 'email', 'password',
     ];
 
     /**

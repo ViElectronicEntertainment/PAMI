@@ -15,23 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('products','ProductController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-//Sistema de Proyectos
-Route::get('/proyectos', function () {
-    return view('proyectos');
-});
-//Crear
-Route::post('/proyectos/crear', 'ProjectsController@create');
-//Leer
-Route::get('/proyectos/', 'ProjectsController@read');
-//Actualizar
-Route::post('/proyectos/update/{id}', 'ProjectsController@update');
-//Eliminar
-Route::delete('/proyectos/delete/{id}', 'ProjectsController@delete');
-//Editar
-Route::get('/proyectos/update/{id}', 'ProjectsController@edit');
-//Preguntar
-Route::get('/proyectos/delete/{id}', 'ProjectsController@preguntar');

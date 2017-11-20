@@ -31,6 +31,14 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Added
 ### Removed
 
+## [0.0.1.0] - 2017-11-19
+### Changed
+- Optimizacion del Proyecto Merge con Larapami Testing Source
+
+### Fixed
+### Added
+### Removed
+
 ## [0.0.0.10] - 2017-11-18
 ### Changed
 - Datos personalizacion separados del Blinter Profile
@@ -51,13 +59,10 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 	DNI
 -- Tercera Fase: Asignacion de 1 punto de atributo a todos los Skills
 
-### Fixed
 ### Added
 - BlinterProfileController: Controlador encargado de asignar las variables blinter profile y completar datos del usuario
 - ProjectsController: Sistema para Crear, Leer, Actualizar, Eliminar - "CRUD"
 - Tabla Projects: Almacena y gestiona informacion de los proyectos
-
-### Removed
 
 ## [0.0.0.9] - 2017-11-16
 ### Fixed
