@@ -23,6 +23,24 @@
 
 ---
 
+# Instalacion:
+
+## Requerimientos:
+
+* <a href="https://git-scm.com">Git</a>
+* <a href="https://www.python.org/downloads/">Phyton</a>
+* <a href="https://getcomposer.org/download/">Composer</a>
+* <a href="https://secure.php.net/downloads.php/">PHP 7 o Superior</a>
+
+## Instrucciones:
+
+* git clone https://github.com/ViElectronicEntertainment/PAMI
+* cd PAMI
+* composer install
+* cp .env.example .env
+* php artisan key:generate
+* Configura tu Base de datos en el archivo .env
+
 ## Desarrollado para:
 
 * Blinter

@@ -20,7 +20,7 @@
 		╔══════════════════════════════════════╗
 		║   Ultimos Cambios - Change Log       ║
 		╚══════════════════════════════════════╝
-		Ultima Actualizacion:  	2017-11-16
+		Ultima Actualizacion:  	2017-12-9
 					▀▀▀▀▀▀▀▀▀▀			
 
 Todos los cambios notables de este proyecto estan documentadas en este archivo.
@@ -30,6 +30,22 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Fixed
 ### Added
 ### Removed
+
+## [0.0.1.1] - 2017-11-19
+### Changed
+- Optimizacion del Proyecto
+
+### Fixed
+- home
+- dashboard
+- Bootstrap 4 Files
+
+### Added
+- Instrucciones de Instalacion
+- CSS new theme
+
+### Removed
+- OLD PAMI
 
 ## [0.0.1.0] - 2017-11-19
 ### Changed
