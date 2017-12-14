@@ -31,6 +31,20 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Added
 ### Removed
 
+--
+
+## [0.0.1.2] - 2017-12-14
+### Changed
+- Optimizacion del Proyecto
+
+### Fixed
+- Login System, Se integraron las tablas 'Blinter_Profile' y 'users'
+
+### Removed
+- Bases de datos que no se usaban, "Se crearon para pruebas del sistema de proyectos"
+
+--
+
 ## [0.0.1.1] - 2017-11-19
 ### Changed
 - Optimizacion del Proyecto

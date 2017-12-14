@@ -66,6 +66,19 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            //Inicializacion de las Varibles Blinter Profile
+            'leadership' => '1',
+            'innovation' => '1',
+            'teamwork' => '1',
+            'management' => '1',
+            'design' => '1',
+            'development' => '1',
+            'problemresolution' => '1',
+            'sales' => '1',
+            'communication' => '1',
+            'community' => '1',
+            'level' => '1',
+            'experience' => '0'
         ]);
     }
 }
