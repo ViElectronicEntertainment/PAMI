@@ -33,6 +33,16 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.1.2b] - 2017-12-14
+
+### Fixed
+- Vendor folder
+
+### Removed
+- Vendor Files
+
+--
+
 ## [0.0.1.2] - 2017-12-14
 ### Changed
 - Optimizacion del Proyecto
