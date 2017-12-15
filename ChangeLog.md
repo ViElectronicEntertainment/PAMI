@@ -33,6 +33,19 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.1.3] - 2017-12-15
+### Changed
+- Ahora usaremos el tema [ https://www.creative-tim.com/product/now-ui-kit ] "Now UI Kit"
+
+### Fixed
+- Wellcome
+
+### Removed
+- Antiguo Tema
+- Pruebas de productos
+
+-- 
+
 ## [0.0.1.2b] - 2017-12-14
 
 ### Fixed
