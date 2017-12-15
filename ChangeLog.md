@@ -25,6 +25,7 @@
 
 Todos los cambios notables de este proyecto estan documentadas en este archivo.
 //Ejemplo
+
 ## [version estable.v-beta.v-alpha.cambio menor] - año-mes-dia
 ### Changed
 ### Fixed
@@ -33,12 +34,20 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.1.4] - 2017-12-15
+### Changed
+- Login
+- Register
+- Home
+
+--
+
 ## [0.0.1.3] - 2017-12-15
 ### Changed
 - Ahora usaremos el tema [ https://www.creative-tim.com/product/now-ui-kit ] "Now UI Kit"
 
 ### Fixed
-- Wellcome
+- Welcome
 
 ### Removed
 - Antiguo Tema

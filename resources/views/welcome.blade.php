@@ -155,7 +155,6 @@
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#pool" role="tab">Piscina de Tareas</a>
                                     </li>
-
                                 </ul>
                                 <div class="card-body">
                                     <!-- Tab panes -->
@@ -178,15 +177,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- End Tabs on plain Card -->
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
-    </div>
-            <div class="section" data-background-color="black">
+                <div class="section" data-background-color="black">
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="text-center col-md-12 col-lg-8">
@@ -222,13 +218,12 @@
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Diseñado y Programado por
-                    <i class="fa fa-heart" style="color:red;"></i>
-                    <a href="http://www.blinteruniverse.com" target="_blank"> Blinter Universe</a>
+                    </script>, Diseñado y Programado con
+                    <i class="fa fa-heart" style="color:red;"></i> por
+                    <a href="http://www.blinteruniverse.com" target="_blank">Blinter Universe</a>
                 </div>
             </div>
         </footer>
-    </div>
 </body>
 <!--   Core JS Files   -->
 <script src="{{ asset('js/core/jquery.3.2.1.min.js') }}" type="text/javascript"></script>
