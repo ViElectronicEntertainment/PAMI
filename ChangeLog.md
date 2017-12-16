@@ -34,11 +34,33 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.1.5] - 2017-12-16
+### New!
+- Blinter Profile! ya esta disponible, solo inicia sesion y dale "Mi Perfil", por ahora muestra las estadisticas pero estaremos trabajando en las siguientes caracteristicas:
+-- Sistema de Titulos
+-- Sistema de Experiencia y Niveles 
+-- Sistema de Preferencia
+-- Sistema de Personalizacion
+
+### Fixed
+- Login
+- Register
+- Home
+
+--
+
 ## [0.0.1.4] - 2017-12-15
+
 ### Changed
 - Login
 - Register
 - Home
+
+### Fixed
+- Grid System [Welcome]
+
+### Removed
+- Lumio template folders
 
 --
 
