@@ -22,7 +22,7 @@
     <link href="{{ asset('css/demo.css') }}" rel="stylesheet" />
 </head>
 <body>
-	@yield('content')
+    @yield('content')
 </body>
 <!--   Core JS Files   -->
 <script src="{{ asset('js/core/jquery.3.2.1.min.js') }}" type="text/javascript"></script>

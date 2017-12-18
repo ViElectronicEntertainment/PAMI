@@ -27,10 +27,27 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 //Ejemplo
 
 ## [version estable.v-beta.v-alpha.cambio menor] - año-mes-dia
+### New!
 ### Changed
 ### Fixed
 ### Added
 ### Removed
+### Update
+### Optimization
+
+--
+
+
+## [0.0.1.6] - 2017-12-16
+
+### Update
+-- Se han actualizado las dependencias del proyecto a la version mas reciente estable
+
+### Removed
+-- Se han eliminado archivos y configuraciones innecesarias
+
+### Optimization
+-- Se han optimizado los tiempos de carga y tamaño del proyecto
 
 --
 

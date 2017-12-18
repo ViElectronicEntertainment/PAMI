@@ -54,24 +54,23 @@ $name = Auth::user()->name; ?>
             </div>
         </div>
         <div class="section">
-            <!--Advertencia-->
-            <div class="alert alert-info" role="alert">
-                <div class="container">
-                    <div class="alert-icon">
-                        <i class="fa fa-info"></i>
-                    </div>
-                    <strong>Hola!</strong> Gracias por probar PAMI por favor no dudes en comunicar tus ideas, Esta es una version preliminar, las cosas pueden cambiar en su version final.
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">
-                            <i class="fa fa-times"></i>
-                        </span>
-                    </button>
-                </div>
-            </div>
             <!--Noticias-->
             <div class="container-fluid">
                 <h1>Bienvenido a PAMI <?php echo "$name" ?></h1>
-                <p></p>
+                <p class="blockquote blockquote-primary"><strong>Hola!</strong> Gracias por probar PAMI por favor no dudes en comunicar tus ideas, Esta es una version preliminar, las cosas pueden cambiar en su version final.</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm">
+                            <button class="btn btn-primary btn-lg">Crear Proyecto</button>
+                        </div>
+                        <div class="col-sm">
+                            <button class="btn btn-primary btn-lg">Explorar Proyectos</button>
+                        </div>
+                        <div class="col-sm">
+                            <button class="btn btn-primary btn-lg">Mis Proyectos</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer class="footer">
