@@ -186,7 +186,7 @@ $total = $liderazgo + $innovacion + $equipo + $gestion + $diseno + $desarrollo +
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.1.5</a>
+                                <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.1</a>
                             </li>
                         </ul>
                     </nav>

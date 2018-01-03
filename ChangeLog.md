@@ -37,8 +37,18 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.1.7] - 2017-12-22
 
-## [0.0.1.6] - 2017-12-16
+### Added
+-- Branch CRUD Projects
+-- Projects Folder Controlador y Modelo
+-- Webpack
+-- Laravel Mix
+-- Axios
+
+--
+
+## [0.0.1.6] - 2017-12-18
 
 ### Update
 -- Se han actualizado las dependencias del proyecto a la version mas reciente estable
