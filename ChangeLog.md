@@ -34,9 +34,27 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Removed
 ### Update
 ### Optimization
+### Fixed
 
 --
 
+
+## [0.0.1.7] - 2018-01-15
+
+### Update
+-- Se han actualizado la pagina de inicio "[welcome.blade.php]"
+-- Es la primera version disponible en entorno web compartido [http://pami.ublinter.com]
+
+### Added
+-- Se Agrego un landing page con informacion basica el proyecto en la ruta raiz
+
+### Optimization
+-- Se han optimizado los tiempos de carga y tamaño del proyecto
+
+### Fixed
+-- Se Corrigio errores conocidos
+
+--
 
 ## [0.0.1.6] - 2017-12-16
 

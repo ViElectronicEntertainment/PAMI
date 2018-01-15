@@ -19,6 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->rememberToken();
+            $table->timestamps();
             //Blinter Skills
             $table->integer('leadership');
             $table->integer('innovation');
@@ -32,7 +33,6 @@ class CreateUsersTable extends Migration
             $table->integer('community');
             $table->integer('level');
             $table->integer('experience');
-            $table->timestamps();
         });
     }
 

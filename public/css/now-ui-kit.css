@@ -2697,7 +2697,7 @@ textarea.form-control:active {
 
 .checkbox input[type="checkbox"]:disabled+label,
 .radio input[type="radio"]:disabled+label {
-    color: #9A9A9A;
+    color: #6E6E6E;
     opacity: .5;
 }
 
@@ -2803,12 +2803,12 @@ textarea.form-control:active {
 }
 
 .radio input[type="radio"]:disabled+label {
-    color: #9A9A9A;
+    color: #6E6E6E;
 }
 
 .radio input[type="radio"]:disabled+label::before,
 .radio input[type="radio"]:disabled+label::after {
-    color: #9A9A9A;
+    color: #6E6E6E;
 }
 
 .radio.radio-inline {
@@ -3211,14 +3211,14 @@ p.description {
 .description,
 .card-description,
 .footer-big p {
-    color: #9A9A9A;
+    color: #6E6E6E;
     font-weight: 300;
 }
 
 .category {
     text-transform: uppercase;
     font-weight: 700;
-    color: #9A9A9A;
+    color: #6E6E6E;
 }
 
 .text-primary {
@@ -3374,7 +3374,7 @@ body {
     height: 60px;
     width: 60px;
     font-weight: 400;
-    color: #9A9A9A;
+    color: #6E6E6E;
     margin-right: 19px;
     background-color: rgba(222, 222, 222, 0.3);
     border-radius: 30px;
@@ -3387,7 +3387,7 @@ body {
 .nav-pills .nav-item .nav-link.active,
 .nav-pills .nav-item .nav-link.active:focus,
 .nav-pills .nav-item .nav-link.active:hover {
-    background-color: #9A9A9A;
+    background-color: #6E6E6E;
     color: #FFFFFF;
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
 }
