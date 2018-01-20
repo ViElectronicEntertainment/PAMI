@@ -2,18 +2,17 @@
 use Illuminate\Support\Facades\Auth;
 
 // Obtiene el nombre del Usuario Autenticado
-$name = Auth::user()->name; ?>
+$user_name = Auth::user()->name; ?>
 
 @extends('layouts.app')
 @section('content')
-
 <body class="template-page sidebar-collapse">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="{{ url('/home') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
-                    PAMI - Scarlett Edition
+                    PAMI - Blog
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -25,7 +24,7 @@ $name = Auth::user()->name; ?>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <div class="dropdown">
-                            <a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo "$name" ?></a>
+                            <a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo "$user_name" ?></a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
                                 <a class="dropdown-item" href="{{ url('/home') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
                                     <i class="fa fa-tachometer" aria-hidden="true"></i> Tablero
@@ -53,24 +52,48 @@ $name = Auth::user()->name; ?>
             <div class="page-header-image" data-parallax="true" style="background-image: url('{{ asset('images/scarlettpami.jpg') }}');">
             </div>
         </div>
+        <!--Blog-->
         <div class="section">
-            <!--Noticias-->
             <div class="container-fluid">
-                <h1>Bienvenido a PAMI <?php echo "$name" ?></h1>
-                <p class="blockquote blockquote-primary"><strong>Hola!</strong> Gracias por probar PAMI por favor no dudes en comunicar tus ideas, Esta es una version preliminar, las cosas pueden cambiar en su version final.</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Publicar Empleo</button>
-                        </div>
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Explorar Ofertas</button>
-                        </div>
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-trophy" aria-hidden="true"></i> Explorar Ofertas</button>
+                <h3 class="title text-center">Blog</h3>
+                <br>
+                <div class="row">
+                    @foreach($posts as $post)
+                    <div class="col-md-4">
+                        <div class="card card-plain card-blog">
+                            <div class="card-image">
+                                <a href="{{ route('post', $post->slug) }}">
+                                    <img class="img rounded img-raised" src="{{ $post->file }}">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="category text-info">{{ $post->slug }}</h6>
+                                <h4 class="card-title">
+                                    <a href="{{ route('post', $post->slug) }}">{{ $post->name }}</a>
+                                </h4>
+                                <p class="card-description">
+                                    {{$post->body}}
+                                    <a href="{{ route('post', $post->slug) }}"> Leer Más </a>
+                                </p>
+                                <div class="author">
+                                        <img src="{{ asset('images/sergioveloza.jpg') }}" width="30px" height="30px" class="rounded-circle img-raised">
+                                        <span>{{$post->user_id}}</span>
+                                </div>
+                                <p></p>
+                            </div>
                         </div>
                     </div>
+                    @endforeach
                 </div>
+                <nav aria-label="Page navigation">
+                    <div class="mx-auto" style="width: 200px;">
+                        <ul class="pagination pagination-primary">
+                            <li class="page-item active">
+                                {{ $posts->render() }}
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
         <footer class="footer">

@@ -2,18 +2,16 @@
 use Illuminate\Support\Facades\Auth;
 
 // Obtiene el nombre del Usuario Autenticado
-$name = Auth::user()->name; ?>
+$user_name = Auth::user()->name; ?>
 
 @extends('layouts.app')
 @section('content')
-
 <body class="template-page sidebar-collapse">
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="{{ url('/home') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
-                    PAMI - Scarlett Edition
+                    PAMI - {{$post->name}}
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -25,7 +23,7 @@ $name = Auth::user()->name; ?>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <div class="dropdown">
-                            <a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo "$name" ?></a>
+                            <a href="" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink1"><i class="fa fa-user-o" aria-hidden="true"></i> <?php echo "$user_name" ?></a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
                                 <a class="dropdown-item" href="{{ url('/home') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
                                     <i class="fa fa-tachometer" aria-hidden="true"></i> Tablero
@@ -47,30 +45,28 @@ $name = Auth::user()->name; ?>
             </div>
         </div>
     </nav>
-    <!-- End Navbar -->
     <div class="wrapper">
         <div class="page-header">
+            @if($post->file)
+            <div class="page-header-image" data-parallax="true" style="background-image: url('../{{ $post->file }}');">
+            </div>
+            @else
             <div class="page-header-image" data-parallax="true" style="background-image: url('{{ asset('images/scarlettpami.jpg') }}');">
+            </div>
+            @endif
+            <div class="container">
+                <div class="content-center">
+                    <h1 class="title">{{ $post->name }}</h1>
+                </div>
             </div>
         </div>
         <div class="section">
-            <!--Noticias-->
-            <div class="container-fluid">
-                <h1>Bienvenido a PAMI <?php echo "$name" ?></h1>
-                <p class="blockquote blockquote-primary"><strong>Hola!</strong> Gracias por probar PAMI por favor no dudes en comunicar tus ideas, Esta es una version preliminar, las cosas pueden cambiar en su version final.</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Publicar Empleo</button>
-                        </div>
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Explorar Ofertas</button>
-                        </div>
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-trophy" aria-hidden="true"></i> Explorar Ofertas</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="container">
+                <br>
+                <hr>
+                {!! $post->body !!}
+                <hr>
+                <h6>Categoria:<a href="{{route('category', $post->category->slug)}}"> {{ $post->category->slug }}</a></h6>
             </div>
         </div>
         <footer class="footer">

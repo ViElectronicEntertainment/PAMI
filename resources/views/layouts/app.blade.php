@@ -10,7 +10,7 @@
     <meta name="description" content="PAMI Plataforma de Administracion de Medios Inteligentes">
     <meta name="author" content="Vi Electronic Entertainment">
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('images/apple-icon.png') }}">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="{{ asset('favicon.ico') }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts and icons -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -18,7 +18,6 @@
     <!-- CSS Files -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/now-ui-kit.css?v=1.1.0') }}" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{ asset('css/demo.css') }}" rel="stylesheet" />
 </head>
 <body>
