@@ -35,6 +35,42 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Update
 ### Optimization
 ### Fixed
+<<<<<<< HEAD
+=======
+
+--
+
+## [0.0.1.8] - 2018-01-19
+
+### Update
+-- Se han actualizado la pagina de inicio "[welcome.blade.php]"
+-- Se han actualizado el tablero "[home.blade.php]"
+-- Se ha actualizado la barra de navegacion
+-- Se ha actualizado las rutas del proyecto
+
+### Added
+-- Se Agrego la caracteristica Blog al proyecto que es un la version preliminar de Tareas y Proyectos PAMI en la ruta /blog . Blog realizara pruebas y buscara estabilidad a la hora de implementar Tareas y Proyectos
+--- Se ha creado la Clase ['Category']
+--- Se ha creado la Clase ['Post']
+--- Se ha creado la Clase ['Tag']
+--- Se ha creado la migracion ['categories_table']
+--- Se ha creado la migracion ['post_table']
+--- Se ha creado la migracion ['tags_table']
+--- Se ha creado la migracion ['categories_table']
+--- Se ha creado las vistas /foro/blog
+--- Se ha creado la migracion /foro/post
+
+### Optimization
+-- Se han optimizado algunas imagenes y simplificado el codigo de algunas paginas
+
+### Fixed
+-- Se ha corregido problema con los HtmlServicesProviders que impedian la instalacion optima del proyecto
+-- Se ha corregido problemas relacionados con el ['favicon.ico']
+-- Se Corrigio errores conocidos
+
+### Removed
+-- Se han eliminado archivos multimedia que no se usaban
+>>>>>>> Project-CRUD
 
 --
 
@@ -43,7 +79,11 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 ### Update
 -- Se han actualizado la pagina de inicio "[welcome.blade.php]"
+<<<<<<< HEAD
 -- Es la primera version disponible en entorno web compartido [http://pami.ublinter.com]
+=======
+-- Es la primera version disponible en entorno web compartido [ http://pami.ublinter.com ]
+>>>>>>> Project-CRUD
 
 ### Added
 -- Se Agrego un landing page con informacion basica el proyecto en la ruta raiz

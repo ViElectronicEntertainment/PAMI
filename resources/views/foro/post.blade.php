@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-@extends('layouts.app')
-
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
-                <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
-=======
 <?php
 use Illuminate\Support\Facades\Auth;
 
@@ -32,12 +7,11 @@ $user_name = Auth::user()->name; ?>
 @extends('layouts.app')
 @section('content')
 <body class="template-page sidebar-collapse">
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="{{ url('/home') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
-                    PAMI - Blog
+                    PAMI - {{$post->name}}
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -71,54 +45,28 @@ $user_name = Auth::user()->name; ?>
             </div>
         </div>
     </nav>
-    <!-- End Navbar -->
     <div class="wrapper">
         <div class="page-header">
+            @if($post->file)
+            <div class="page-header-image" data-parallax="true" style="background-image: url('../{{ $post->file }}');">
+            </div>
+            @else
             <div class="page-header-image" data-parallax="true" style="background-image: url('{{ asset('images/scarlettpami.jpg') }}');">
             </div>
-        </div>
-        <!--Blog-->
-        <div class="section">
-            <div class="container-fluid">
-                <h3 class="title text-center">Blog</h3>
-                <br>
-                <div class="row">
-                    @foreach($posts as $post)
-                    <div class="col-md-4">
-                        <div class="card card-plain card-blog">
-                            <div class="card-image">
-                                <a href="{{ route('post', $post->slug) }}">
-                                    <img class="img rounded img-raised" src="{{ $post->file }}">
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <h6 class="category text-info">{{ $post->slug }}</h6>
-                                <h4 class="card-title">
-                                    <a href="{{ route('post', $post->slug) }}">{{ $post->name }}</a>
-                                </h4>
-                                <p class="card-description">
-                                    {{$post->body}}
-                                    <a href="{{ route('post', $post->slug) }}"> Leer Más </a>
-                                </p>
-                                <div class="author">
-                                        <img src="{{ asset('images/sergioveloza.jpg') }}" width="30px" height="30px" class="rounded-circle img-raised">
-                                        <span>{{$post->user_id}}</span>
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
+            @endif
+            <div class="container">
+                <div class="content-center">
+                    <h1 class="title">{{ $post->name }}</h1>
                 </div>
-                <nav aria-label="Page navigation">
-                    <div class="mx-auto" style="width: 200px;">
-                        <ul class="pagination pagination-primary">
-                            <li class="page-item active">
-                                {{ $posts->render() }}
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <br>
+                <hr>
+                {!! $post->body !!}
+                <hr>
+                <h6>Categoria:<a href="{{route('category', $post->category->slug)}}"> {{ $post->category->slug }}</a></h6>
             </div>
         </div>
         <footer class="footer">
@@ -143,4 +91,3 @@ $user_name = Auth::user()->name; ?>
     </div>
 </body>
 @endsection
->>>>>>> Project-CRUD

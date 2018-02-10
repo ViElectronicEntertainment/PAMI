@@ -8,7 +8,11 @@
 <h4 align="center">Plataforma de Administracion de Medios Inteligentes</h4>
 <p align="center">
   <a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
+<<<<<<< HEAD
   <img src="https://img.shields.io/badge/Version-0.0.1.7-yellow.svg?style=for-the-badge" alt="Version"></a>
+=======
+  <img src="https://img.shields.io/badge/Version-0.0.1.8-yellow.svg?style=for-the-badge" alt="Version"></a>
+>>>>>>> Project-CRUD
   <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">
   <img src="https://img.shields.io/badge/buildstatus-production-yellow.svg?style=for-the-badge" alt="build status"></a>
   <a href="https://facebook.com/BlinterUniverse/">

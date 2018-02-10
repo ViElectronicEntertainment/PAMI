@@ -61,13 +61,13 @@ $name = Auth::user()->name; ?>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm">
-                            <button class="btn btn-primary btn-lg">Crear Proyecto</button>
+                            <button class="btn btn-primary btn-lg"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Publicar Empleo</button>
                         </div>
                         <div class="col-sm">
-                            <button class="btn btn-primary btn-lg">Explorar Proyectos</button>
+                            <button class="btn btn-primary btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Explorar Ofertas</button>
                         </div>
                         <div class="col-sm">
-                            <button class="btn btn-primary btn-lg">Mis Proyectos</button>
+                            <button class="btn btn-primary btn-lg"><i class="fa fa-trophy" aria-hidden="true"></i> Explorar Ofertas</button>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ $name = Auth::user()->name; ?>
                 <nav>
                     <ul>
                         <li>
-                            <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.1.5</a>
+                            <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.1</a>
                         </li>
                     </ul>
                 </nav>
