@@ -1,7 +1,8 @@
 <?php
 
 namespace pami\Providers;
-
+use pami\Post;
+use pami\Policies\PostPolicy;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
@@ -13,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'pami\Model' => 'pami\Policies\ModelPolicy',
+        Post::class => PostPolicy::class
     ];
 
     /**

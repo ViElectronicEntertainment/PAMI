@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'leadership', 'innovation', 'teamwork', 'management', 'design', 'development', 'problemresolution', 'sales', 'communication', 'community', 'level', 'experience',
+        'name', 'email', 'password','leadership', 'innovation', 'teamwork', 'management', 'design', 'development', 'problemresolution', 'sales', 'communication', 'community', 'level', 'experience',
     ];
 
     /**
@@ -27,7 +27,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function posts (){
+    public function posts(){
         return $this->hasMany(Post::class);
     }
+
 }

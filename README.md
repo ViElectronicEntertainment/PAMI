@@ -8,15 +8,11 @@
 <h4 align="center">Plataforma de Administracion de Medios Inteligentes</h4>
 <p align="center">
   <a href="https://github.com/ViElectronicEntertainment/PAMI/releases">
-<<<<<<< HEAD
-  <img src="https://img.shields.io/badge/Version-0.0.1.7-yellow.svg?style=for-the-badge" alt="Version"></a>
-=======
-  <img src="https://img.shields.io/badge/Version-0.0.1.8-yellow.svg?style=for-the-badge" alt="Version"></a>
->>>>>>> Project-CRUD
+  <img src="https://img.shields.io/badge/Version-0.0.2.0-yellow.svg?style=for-the-badge" alt="Version"></a>
   <a href="https://github.com/ViElectronicEntertainment/PAMI/issues">
   <img src="https://img.shields.io/badge/buildstatus-production-yellow.svg?style=for-the-badge" alt="build status"></a>
   <a href="https://facebook.com/BlinterUniverse/">
-  <img src="https://img.shields.io/badge/Facebook-Like-blue.svg?style=for-the-badge" alt="last deployed"></a>
+  <img src="https://img.shields.io/badge/Facebook-Like-blue.svg?style=for-the-badge" alt="Siguenos en Facebook"></a>
   <a href="https://discord.gg/34DYauN">
   <img src="https://img.shields.io/badge/Discord-Chat-blue.svg?style=for-the-badge" alt="Chatea con nosotros!"></a>
   <a href="https://twitter.com/BlinterUniverse">
@@ -41,7 +37,8 @@
 * git clone https://github.com/ViElectronicEntertainment/PAMI
 * cd PAMI
 * composer install
-* cp .env.example .env
+* npm install
+* duplicar el archivo .env.example, remplazar el nombre por .env "configurar segun entorno"
 * php artisan key:generate
 * Configura tu Base de datos en el archivo .env
 
@@ -54,7 +51,7 @@
 ## Tecnologias usadas
 
 * Bootstrap 4
-* Laravel 5.5
+* Laravel 5.6
 * jQuery 3
 
 #### License

@@ -20,7 +20,7 @@
 		╔══════════════════════════════════════╗
 		║   Ultimos Cambios - Change Log       ║
 		╚══════════════════════════════════════╝
-		Ultima Actualizacion:  	2017-12-9
+		Ultima Actualizacion:  	2018-19-3
 					▀▀▀▀▀▀▀▀▀▀			
 
 Todos los cambios notables de este proyecto estan documentadas en este archivo.
@@ -35,8 +35,32 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 ### Update
 ### Optimization
 ### Fixed
-<<<<<<< HEAD
-=======
+
+--
+
+## [0.0.2.0] - 2018-03-19
+
+### Optimization
+-- Se han optimizado tiempos de carga
+
+### Fixed
+-- Se Corrigio problemas del tema con Bootstrap
+
+--
+
+## [0.0.1.9] - 2018-02-27
+
+### Update
+-- Se han actualizado la version del framework a Laravel 5.6
+
+### Optimization
+-- Se han optimizado el modulo de Blog
+
+### Fixed
+-- Se Corrigio errores conocidos
+
+### Removed
+-- Se han eliminado archivos multimedia que no se usaban
 
 --
 
@@ -70,20 +94,15 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 ### Removed
 -- Se han eliminado archivos multimedia que no se usaban
->>>>>>> Project-CRUD
 
 --
-
 
 ## [0.0.1.7] - 2018-01-15
 
 ### Update
 -- Se han actualizado la pagina de inicio "[welcome.blade.php]"
-<<<<<<< HEAD
--- Es la primera version disponible en entorno web compartido [http://pami.ublinter.com]
-=======
 -- Es la primera version disponible en entorno web compartido [ http://pami.ublinter.com ]
->>>>>>> Project-CRUD
+-- Es la primera version disponible en entorno web compartido [http://pami.ublinter.com]
 
 ### Added
 -- Se Agrego un landing page con informacion basica el proyecto en la ruta raiz

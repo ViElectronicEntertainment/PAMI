@@ -49,8 +49,11 @@ $total = $liderazgo + $innovacion + $equipo + $gestion + $diseno + $desarrollo +
                                     <a class="dropdown-item" href="{{ url('/profile') }}" rel="tooltip" title="Ir a mi Perfil PAMI" data-placement="bottom">
                                     <i class="fa fa-user" aria-hidden="true"></i> Mi Perfil
                                 </a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="{{ route('logout') }}" rel="tooltip" title="Salir de PAMI" data-placement="bottom" onclick="event.preventDefault();
+                                <a class="dropdown-item" href="{{ url('/blog') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="{{ route('logout') }}" rel="tooltip" title="Salir de PAMI" data-placement="bottom" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
                                 <i class="fa fa-power-off mr-1" aria-hidden="true"></i>Salir
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -186,7 +189,7 @@ $total = $liderazgo + $innovacion + $equipo + $gestion + $diseno + $desarrollo +
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.1</a>
+                                <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.2</a>
                             </li>
                         </ul>
                     </nav>

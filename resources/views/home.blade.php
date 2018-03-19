@@ -33,6 +33,9 @@ $name = Auth::user()->name; ?>
                                 <a class="dropdown-item" href="{{ url('/profile') }}" rel="tooltip" title="Ir a mi Perfil PAMI" data-placement="bottom">
                                     <i class="fa fa-user" aria-hidden="true"></i> Mi Perfil
                                 </a>
+                                <a class="dropdown-item" href="{{ url('/blog') }}" rel="tooltip" title="Tablero PAMI" data-placement="bottom">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i> Blog
+                                </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="{{ route('logout') }}" rel="tooltip" title="Salir de PAMI" data-placement="bottom" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
@@ -58,17 +61,13 @@ $name = Auth::user()->name; ?>
             <div class="container-fluid">
                 <h1>Bienvenido a PAMI <?php echo "$name" ?></h1>
                 <p class="blockquote blockquote-primary"><strong>Hola!</strong> Gracias por probar PAMI por favor no dudes en comunicar tus ideas, Esta es una version preliminar, las cosas pueden cambiar en su version final.</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Publicar Empleo</button>
-                        </div>
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-search" aria-hidden="true"></i> Explorar Ofertas</button>
-                        </div>
-                        <div class="col-sm">
-                            <button class="btn btn-primary btn-lg"><i class="fa fa-trophy" aria-hidden="true"></i> Explorar Ofertas</button>
-                        </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="{{ url('/blog') }}" class="btn btn-primary btn-lg">
+                            <i class="fa fa-newspaper-o"></i> Blog de Desarrollo
+                        </a>
                     </div>
                 </div>
             </div>
@@ -78,7 +77,7 @@ $name = Auth::user()->name; ?>
                 <nav>
                     <ul>
                         <li>
-                            <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.1</a>
+                            <a href="https://github.com/ViElectronicEntertainment/PAMI">PAMI 0.0.2</a>
                         </li>
                     </ul>
                 </nav>
