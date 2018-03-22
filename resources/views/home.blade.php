@@ -66,7 +66,7 @@ $name = Auth::user()->name; ?>
                 <div class="row">
                     <div class="col-sm">
                         <a href="{{ url('/blog') }}" class="btn btn-primary btn-lg">
-                            <i class="fa fa-newspaper-o"></i> Blog de Desarrollo
+                            <i class="fa fa-rocket"></i> Proyectos
                         </a>
                     </div>
                 </div>

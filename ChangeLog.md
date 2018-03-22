@@ -38,6 +38,20 @@ Todos los cambios notables de este proyecto estan documentadas en este archivo.
 
 --
 
+## [0.0.2.1] - 2018-03-22
+
+### Optimization
+-- Se han optimizado vistas
+
+### Fixed
+-- Se reparo la base de datos
+-- Se Corrigio problemas y errores conocidos
+
+### Removed
+-- Se eliminaron tablas repetidas
+
+--
+
 ## [0.0.2.0] - 2018-03-19
 
 ### Optimization
