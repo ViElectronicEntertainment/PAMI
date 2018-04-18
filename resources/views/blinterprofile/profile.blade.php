@@ -17,11 +17,11 @@ $nivel = Auth::user()->level;
 $exp = Auth::user()->experience;
 $total = $liderazgo + $innovacion + $equipo + $gestion + $diseno + $desarrollo + $problemas + $ventas + $comunicacion + $comunidad;
 ?>
-    @extends('layouts.app')
-    <title>PAMI |
-        <?php echo "$name" ?>
-    </title>
-    @section('content')
+@extends('layouts.app')
+<title>PAMI |
+    <?php echo "$name" ?>
+</title>
+@section('content')
 
     <body class="profile-page sidebar-collapse">
         <!-- Navbar -->

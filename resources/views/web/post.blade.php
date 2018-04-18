@@ -1,12 +1,7 @@
-<?php
-use Illuminate\Support\Facades\Auth;
+@extends('layouts.app')
+@section('content')
 
-// Obtiene el nombre del Usuario Autenticado
-$name = Auth::user()->name; ?>
-    @extends('layouts.app')
-    @section('content')
-
-    <body class="template-page sidebar-collapse">
+<body class="template-page sidebar-collapse">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
             <div class="container">

@@ -1,9 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Auth;
-
-// Obtiene el nombre del Usuario Autenticado
 $name = Auth::user()->name; ?>
-
 @extends('layouts.app')
 @section('content')
 

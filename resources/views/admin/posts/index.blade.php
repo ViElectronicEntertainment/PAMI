@@ -1,9 +1,3 @@
-<?php
-use Illuminate\Support\Facades\Auth;
-
-// Obtiene el nombre del Usuario Autenticado
-$name = Auth::user()->name; ?>
-
 @extends('layouts.app')
 @section('content')
 
@@ -63,24 +57,24 @@ $name = Auth::user()->name; ?>
             	<a href="{{ route('posts.create') }}" class="btn btn-success float-right">Crear</a></h5>
             </div>
             <div class="container-fluid">
-            							<div class="card-text">
-							</br>
-							<table class="table table-hover">
-								<thead>
-									<tr>
-										<th scope="col">ID</th>
-										<th scope="col">Nombre</th>
-										<th scope="col">&nbsp;</th>
-									</tr>
-								</thead>
-								<tbody>
-									@foreach($posts as $post)
-									<tr>
-										<th scope="row">{{ $post->id}} </th>
-										<td>{{ $post->name }}</td>
-										<td align="right">
-											<div class="btn-group">
-												<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acciones</button>
+            	<div class="card-text">
+					</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">ID</th>
+									<th scope="col">Nombre</th>
+									<th scope="col">&nbsp;</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach($posts as $post)
+								<tr>
+									<th scope="row">{{ $post->id}} </th>
+									<td>{{ $post->name }}</td>
+									<td align="right">
+										<div class="btn-group">
+											<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acciones</button>
 												<div class="dropdown-menu dropdown-menu-right">
 													<a href="{{ route('posts.show', $post->id) }}" class="dropdown-item">Ver</a>
 													<a href="{{ route('posts.edit', $post->id) }}" class="dropdown-item">Editar</a>

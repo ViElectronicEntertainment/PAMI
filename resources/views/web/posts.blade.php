@@ -1,8 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Auth;
-
-// Obtiene el nombre del Usuario Autenticado
-$name = Auth::user()->name; ?>
+$name = Auth::user()->name;?>
 
 @extends('layouts.app')
 @section('content')
@@ -60,6 +58,7 @@ $name = Auth::user()->name; ?>
             <!--Noticias-->
             <div class="container-fluid">
             	<h1>Lista de Proyectos</h1>
+                <a href="{{ route('posts.create') }}" class="btn btn-success float-right">Crear</a></h5>
             </div>
             <div class="container-fluid">
                 @foreach($posts as $post)
